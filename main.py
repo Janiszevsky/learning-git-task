@@ -9,12 +9,12 @@ print(f'W sumie kupuję {len(shopping_dict.values())} produktów.')
 
 
 
-for num in range(1,100):        
+for num in range(1,101):        
             if  num % 5 == 0:
                 print(str(num) + " ", end = "")                 
             else:
                 pass
-for num in range(1,100):       
+for num in range(1,101):       
             if num % 5 == 0:
                  print(str(num**3) + " ", end = "")  
             else:
